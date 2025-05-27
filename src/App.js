@@ -1,4 +1,5 @@
-import ListaTarefas from './components/ListaTarefas';
+import ListaTarefasAtual from "./components/ListaTarefasAtual";
+
 
 function App() {
   return (
@@ -6,7 +7,7 @@ function App() {
       <header className='App-header'>
       <h1>Lista de Tarefas</h1>
       </header>
-      <ListaTarefas />
+      <ListaTarefasAtual />
     </div>
   );
 }
